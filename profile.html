@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <a href="main.html"><img src="img/logo.png" alt="Логотип" class="logo"/></a>
+        <a href="myths.html">Мифы</a>
+        <a href="deities.html">Божества</a>
+        <a href="worlds.html">Миры</a>
+        <a href="symbols.html">Символы</a>
+        <a href="chronicles.html">Хроники</a>
+        <div  tabindex="0" class="dropdown">
+            <img src="img/profile-icon.png" alt="Иконка профиля" class="profile" style="opacity: 0.7;"/>
+            <div class="dropdown-content">
+                <a href="profile.html">Мой Профиль</a>
+                <a href="#">Сменить аккаунт</a>
+                <a href="#">Удалить аккаунт</a>
+                <div class="go-out"><a href="login.html">Выйти </a><img src="img/exit.png" alt="exit"></div>
+            </div>
+        </div>
+    </header>
+    <main class="main-content" id="profile">
+        <section class="main" id="profile-main">
+            <div class="profile-tittle">Ваш Профиль</div>
+            <hr>
+            <div class="profile-content">
+                <div class="profile-photo">
+                    <img src="img/profile-photo.png" alt="">
+                    <button>ИЗМЕНИТЬ ФОТО</button>
+                    <div class="profile-white-buttons">
+                        <div><img src="img/selected.png" alt=""><h3>ИЗБРАННЫЕ</h3></div>
+                        <div><img src="img/created.png" alt=""><h3>СОЗДАННЫЕ</h3></div>
+                        <div><img src="img/friends.png" alt=""><h3>ДРУЗЬЯ</h3></div>
+                    </div>
+                </div>
+                <div class="profile-info">
+                    <div>Никнейм:<input type="text" placeholder="Nickname"></div>
+                    <div>Имя:<input type="text" placeholder="Firstname"></div>
+                    <div>Фамилия:<input type="text" placeholder="Lastname"></div>
+                    <div>Телефон:<input type="text" placeholder="8 (***) *** ** **"></div>
+                    <div>Эл.почта:<input type="text" placeholder="email@gmail.com"></div>
+                    <div>Пароль:<input type="text" placeholder="● ● ● ● ● ● ● ● ● ●"></div>
+                    <div>О себе:<input type="text" placeholder="Some information and random fun facts"></div>
+                    <button>ИЗМЕНИТЬ ПРОФИЛЬ</button>
+                </div>
+            </div>
+            <hr>
+            <div class="support">
+                <div class="support-left"></div>
+                <div class="support-right">
+                    <div>Написать в поддержку:<h3>support@gmail.com</h3></div>
+                    <div>Пожаловаться:<h3>complaints@gmail.com</h3></div>
+                </div>
+            </div>
+            <hr>
+            <div class="profile-tittle"><button>ВВЕСТИ ПРОМОКОД</button></div>
+        </section>
+    </main>
+</body>
+</html>
